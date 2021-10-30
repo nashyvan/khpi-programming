@@ -19,14 +19,14 @@ int main (void) {
 
         D = (9.8 * powf(a, 2)) + (5.52 * cosf( powf(t, 5) ));
 
-        printf("\nz = %5.3f\n", D);
+        printf("\nD = %5.3f\n", D);
     } else {
         printf("Введіть значення для змінної y: ");
         scanf("%f", &y);
 
         S = sqrtf( cosf(4 * powf(y, 2)) + 7.151 );
 
-        printf("\nz1 = %5.3f\n", S);
+        printf("\nS = %5.3f\n", S);
     }
     return 0;
 }
