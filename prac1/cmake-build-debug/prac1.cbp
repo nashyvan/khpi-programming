@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/nashivan/CLionProjects/prac1/task3.c">
+		<Unit filename="/Users/nashivan/CLionProjects/prac1/task2.c">
 			<Option target="prac1"/>
 		</Unit>
 		<Unit filename="/Users/nashivan/CLionProjects/prac1/CMakeLists.txt">
