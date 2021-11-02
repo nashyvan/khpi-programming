@@ -57,10 +57,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/nashivan/CLionProjects/prac3
+CMAKE_SOURCE_DIR = /Users/nashivan/CLionProjects/lab3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/nashivan/CLionProjects/prac3/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/nashivan/CLionProjects/lab3/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nashivan/CLionProjects/prac3/cmake-build-debug/CMakeFiles /Users/nashivan/CLionProjects/prac3/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nashivan/CLionProjects/lab3/cmake-build-debug/CMakeFiles /Users/nashivan/CLionProjects/lab3/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nashivan/CLionProjects/prac3/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nashivan/CLionProjects/lab3/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named prac3
+# Target rules for targets named lab3
 
 # Build rule for target.
-prac3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 prac3
-.PHONY : prac3
+lab3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab3
+.PHONY : lab3
 
 # fast build rule for target.
-prac3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/prac3.dir/build.make CMakeFiles/prac3.dir/build
-.PHONY : prac3/fast
+lab3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/build
+.PHONY : lab3/fast
 
-task2.o: task2.c.o
-.PHONY : task2.o
+task1.o: task1.c.o
+.PHONY : task1.o
 
 # target to build an object file
-task2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/prac3.dir/build.make CMakeFiles/prac3.dir/task2.c.o
-.PHONY : task2.c.o
+task1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/task1.c.o
+.PHONY : task1.c.o
 
-task2.i: task2.c.i
-.PHONY : task2.i
+task1.i: task1.c.i
+.PHONY : task1.i
 
 # target to preprocess a source file
-task2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/prac3.dir/build.make CMakeFiles/prac3.dir/task2.c.i
-.PHONY : task2.c.i
+task1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/task1.c.i
+.PHONY : task1.c.i
 
-task2.s: task2.c.s
-.PHONY : task2.s
+task1.s: task1.c.s
+.PHONY : task1.s
 
 # target to generate assembly for a file
-task2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/prac3.dir/build.make CMakeFiles/prac3.dir/task2.c.s
-.PHONY : task2.c.s
+task1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/task1.c.s
+.PHONY : task1.c.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... prac3"
-	@echo "... task2.o"
-	@echo "... task2.i"
-	@echo "... task2.s"
+	@echo "... lab3"
+	@echo "... task1.o"
+	@echo "... task1.i"
+	@echo "... task1.s"
 .PHONY : help
 
 

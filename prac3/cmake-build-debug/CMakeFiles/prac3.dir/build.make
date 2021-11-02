@@ -66,27 +66,27 @@ include CMakeFiles/prac3.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/prac3.dir/flags.make
 
-CMakeFiles/prac3.dir/task1.c.o: CMakeFiles/prac3.dir/flags.make
-CMakeFiles/prac3.dir/task1.c.o: ../task1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nashivan/CLionProjects/prac3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/prac3.dir/task1.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/prac3.dir/task1.c.o -c /Users/nashivan/CLionProjects/prac3/task1.c
+CMakeFiles/prac3.dir/task2.c.o: CMakeFiles/prac3.dir/flags.make
+CMakeFiles/prac3.dir/task2.c.o: ../task2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nashivan/CLionProjects/prac3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/prac3.dir/task2.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/prac3.dir/task2.c.o -c /Users/nashivan/CLionProjects/prac3/task2.c
 
-CMakeFiles/prac3.dir/task1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/prac3.dir/task1.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nashivan/CLionProjects/prac3/task1.c > CMakeFiles/prac3.dir/task1.c.i
+CMakeFiles/prac3.dir/task2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/prac3.dir/task2.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nashivan/CLionProjects/prac3/task2.c > CMakeFiles/prac3.dir/task2.c.i
 
-CMakeFiles/prac3.dir/task1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/prac3.dir/task1.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nashivan/CLionProjects/prac3/task1.c -o CMakeFiles/prac3.dir/task1.c.s
+CMakeFiles/prac3.dir/task2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/prac3.dir/task2.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nashivan/CLionProjects/prac3/task2.c -o CMakeFiles/prac3.dir/task2.c.s
 
 # Object files for target prac3
 prac3_OBJECTS = \
-"CMakeFiles/prac3.dir/task1.c.o"
+"CMakeFiles/prac3.dir/task2.c.o"
 
 # External object files for target prac3
 prac3_EXTERNAL_OBJECTS =
 
-prac3: CMakeFiles/prac3.dir/task1.c.o
+prac3: CMakeFiles/prac3.dir/task2.c.o
 prac3: CMakeFiles/prac3.dir/build.make
 prac3: CMakeFiles/prac3.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/nashivan/CLionProjects/prac3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable prac3"
