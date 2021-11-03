@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int main() {
     int i = 2147483647;
     unsigned int j = 4294967295;
 
