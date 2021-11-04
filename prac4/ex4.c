@@ -2,7 +2,7 @@
 #include <math.h>
 
 int main() {
-    printf("\n   Показники основних товар?в за 2018 р?к\n");
+    printf("\n   Показники основних товарiв за 2018 рiк\n");
     printf("%c", 201);
     for (int j = 0; j < 4; j++) {
         for (int i = 0; i < 8; i++) {
