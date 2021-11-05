@@ -6,9 +6,8 @@ int main() {
     printf("\aВведiть бажану суму плати на мiсяць:");
     printf(" $_______\b\b\b\b\b\b\b");
     scanf("%f", &salary);
-    printf("\n\t\t$%.2f на мiсяць вiдповiдає $%.2f на рiк.",
-           salary, salary*12.0);
-    printf("\rНепогано!\n");
+    printf("\t\t$%.2f на мiсяць вiдповiдає $%.2f на рiк.", salary, salary * 12.0);
+    printf("\nНепогано!\n");
 
-    return 0;
+    return 0; 
 }

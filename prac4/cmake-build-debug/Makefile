@@ -129,29 +129,29 @@ prac4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prac4.dir/build.make CMakeFiles/prac4.dir/build
 .PHONY : prac4/fast
 
-task1.o: task1.c.o
-.PHONY : task1.o
+ex1.o: ex1.c.o
+.PHONY : ex1.o
 
 # target to build an object file
-task1.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/prac4.dir/build.make CMakeFiles/prac4.dir/task1.c.o
-.PHONY : task1.c.o
+ex1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prac4.dir/build.make CMakeFiles/prac4.dir/ex1.c.o
+.PHONY : ex1.c.o
 
-task1.i: task1.c.i
-.PHONY : task1.i
+ex1.i: ex1.c.i
+.PHONY : ex1.i
 
 # target to preprocess a source file
-task1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/prac4.dir/build.make CMakeFiles/prac4.dir/task1.c.i
-.PHONY : task1.c.i
+ex1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prac4.dir/build.make CMakeFiles/prac4.dir/ex1.c.i
+.PHONY : ex1.c.i
 
-task1.s: task1.c.s
-.PHONY : task1.s
+ex1.s: ex1.c.s
+.PHONY : ex1.s
 
 # target to generate assembly for a file
-task1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/prac4.dir/build.make CMakeFiles/prac4.dir/task1.c.s
-.PHONY : task1.c.s
+ex1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prac4.dir/build.make CMakeFiles/prac4.dir/ex1.c.s
+.PHONY : ex1.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... prac4"
-	@echo "... task1.o"
-	@echo "... task1.i"
-	@echo "... task1.s"
+	@echo "... ex1.o"
+	@echo "... ex1.i"
+	@echo "... ex1.s"
 .PHONY : help
 
 

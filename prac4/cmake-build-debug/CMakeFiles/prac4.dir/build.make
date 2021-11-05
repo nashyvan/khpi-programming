@@ -66,27 +66,27 @@ include CMakeFiles/prac4.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/prac4.dir/flags.make
 
-CMakeFiles/prac4.dir/task1.c.o: CMakeFiles/prac4.dir/flags.make
-CMakeFiles/prac4.dir/task1.c.o: ../task1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nashivan/CLionProjects/prac4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/prac4.dir/task1.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/prac4.dir/task1.c.o -c /Users/nashivan/CLionProjects/prac4/task1.c
+CMakeFiles/prac4.dir/ex1.c.o: CMakeFiles/prac4.dir/flags.make
+CMakeFiles/prac4.dir/ex1.c.o: ../ex1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nashivan/CLionProjects/prac4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/prac4.dir/ex1.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/prac4.dir/ex1.c.o -c /Users/nashivan/CLionProjects/prac4/ex1.c
 
-CMakeFiles/prac4.dir/task1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/prac4.dir/task1.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nashivan/CLionProjects/prac4/task1.c > CMakeFiles/prac4.dir/task1.c.i
+CMakeFiles/prac4.dir/ex1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/prac4.dir/ex1.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nashivan/CLionProjects/prac4/ex1.c > CMakeFiles/prac4.dir/ex1.c.i
 
-CMakeFiles/prac4.dir/task1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/prac4.dir/task1.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nashivan/CLionProjects/prac4/task1.c -o CMakeFiles/prac4.dir/task1.c.s
+CMakeFiles/prac4.dir/ex1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/prac4.dir/ex1.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nashivan/CLionProjects/prac4/ex1.c -o CMakeFiles/prac4.dir/ex1.c.s
 
 # Object files for target prac4
 prac4_OBJECTS = \
-"CMakeFiles/prac4.dir/task1.c.o"
+"CMakeFiles/prac4.dir/ex1.c.o"
 
 # External object files for target prac4
 prac4_EXTERNAL_OBJECTS =
 
-prac4: CMakeFiles/prac4.dir/task1.c.o
+prac4: CMakeFiles/prac4.dir/ex1.c.o
 prac4: CMakeFiles/prac4.dir/build.make
 prac4: CMakeFiles/prac4.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/nashivan/CLionProjects/prac4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable prac4"
