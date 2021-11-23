@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/nashivan/CLionProjects/lab4/main.c
+/Users/nashivan/CLionProjects/lab4/task2.c
 stdio.h
 -
-stdlib.h
+math.h
 -
 

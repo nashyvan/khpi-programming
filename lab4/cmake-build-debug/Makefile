@@ -129,29 +129,29 @@ lab4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab4.dir/build.make CMakeFiles/lab4.dir/build
 .PHONY : lab4/fast
 
-main.o: main.c.o
-.PHONY : main.o
+task2.o: task2.c.o
+.PHONY : task2.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab4.dir/build.make CMakeFiles/lab4.dir/main.c.o
-.PHONY : main.c.o
+task2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab4.dir/build.make CMakeFiles/lab4.dir/task2.c.o
+.PHONY : task2.c.o
 
-main.i: main.c.i
-.PHONY : main.i
+task2.i: task2.c.i
+.PHONY : task2.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab4.dir/build.make CMakeFiles/lab4.dir/main.c.i
-.PHONY : main.c.i
+task2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab4.dir/build.make CMakeFiles/lab4.dir/task2.c.i
+.PHONY : task2.c.i
 
-main.s: main.c.s
-.PHONY : main.s
+task2.s: task2.c.s
+.PHONY : task2.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab4.dir/build.make CMakeFiles/lab4.dir/main.c.s
-.PHONY : main.c.s
+task2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab4.dir/build.make CMakeFiles/lab4.dir/task2.c.s
+.PHONY : task2.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... lab4"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... task2.o"
+	@echo "... task2.i"
+	@echo "... task2.s"
 .PHONY : help
 
 

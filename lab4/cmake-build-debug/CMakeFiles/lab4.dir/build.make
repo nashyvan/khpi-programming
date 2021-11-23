@@ -66,27 +66,27 @@ include CMakeFiles/lab4.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/lab4.dir/flags.make
 
-CMakeFiles/lab4.dir/main.c.o: CMakeFiles/lab4.dir/flags.make
-CMakeFiles/lab4.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nashivan/CLionProjects/lab4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lab4.dir/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab4.dir/main.c.o -c /Users/nashivan/CLionProjects/lab4/main.c
+CMakeFiles/lab4.dir/task2.c.o: CMakeFiles/lab4.dir/flags.make
+CMakeFiles/lab4.dir/task2.c.o: ../task2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nashivan/CLionProjects/lab4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lab4.dir/task2.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab4.dir/task2.c.o -c /Users/nashivan/CLionProjects/lab4/task2.c
 
-CMakeFiles/lab4.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab4.dir/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nashivan/CLionProjects/lab4/main.c > CMakeFiles/lab4.dir/main.c.i
+CMakeFiles/lab4.dir/task2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab4.dir/task2.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nashivan/CLionProjects/lab4/task2.c > CMakeFiles/lab4.dir/task2.c.i
 
-CMakeFiles/lab4.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab4.dir/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nashivan/CLionProjects/lab4/main.c -o CMakeFiles/lab4.dir/main.c.s
+CMakeFiles/lab4.dir/task2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab4.dir/task2.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nashivan/CLionProjects/lab4/task2.c -o CMakeFiles/lab4.dir/task2.c.s
 
 # Object files for target lab4
 lab4_OBJECTS = \
-"CMakeFiles/lab4.dir/main.c.o"
+"CMakeFiles/lab4.dir/task2.c.o"
 
 # External object files for target lab4
 lab4_EXTERNAL_OBJECTS =
 
-lab4: CMakeFiles/lab4.dir/main.c.o
+lab4: CMakeFiles/lab4.dir/task2.c.o
 lab4: CMakeFiles/lab4.dir/build.make
 lab4: CMakeFiles/lab4.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/nashivan/CLionProjects/lab4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable lab4"
